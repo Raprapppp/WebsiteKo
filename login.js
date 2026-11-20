@@ -11,7 +11,7 @@ function login() {
     
     } else if (email === "Raprappp" && password === "passwordkoto") {
 
-        window.location.href = "index.html";
+        window.location.href = "main.html";
 
     } else {
 
