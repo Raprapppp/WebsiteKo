@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #56b4f9, #1746ff);
+    margin: 0;
+    padding: 30px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#studentForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#studentForm label {
+    font-weight: bold;
+}
+
+#studentForm input,
+#studentForm select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#studentTable {
+    background: white;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+    box-sizing: border-box;
+}
+
+#studentTable th,
+#studentTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+#studentTable th {
+    background-color: #3498db;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+
+#logout {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
